@@ -14,8 +14,8 @@
             </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="tour.html" style="font-weight: bold">Madrid</a></li>
-                <li><a href="barcelona.html">Barcelona</a></li>
+                <li><a href="tour.html">Madrid</a></li>
+                <li><a href="barcelona.html" style="font-weight: bold">Barcelona</a></li>
                 <div class="dropdown">
                     <li><a href="">Other Links</a></li>
                     <div class="dropdown-content">
@@ -36,39 +36,39 @@
                 <br>
                 <br>
                 <center>
-                    <h2 style="color: #979A9A; font-size: 28px; font-weight: lighter">1. Prado Museum</h2>
-                    <div style="width: 500px; margin: 25px;">
-                        <h3 style="color: #979A9A; font-weight: lighter;">The Museo del Prado opened to the public on 19 November 1819 as a Royal Museum of Painting and Sculpture.</h3>
-                        <table style="width: 500px; margin: 10px">
+                    <h2 style="color: #979A9A; font-size: 28px; font-weight: lighter">1. Sagrada de Familia</h2>
+                    <div style="width: 750px; margin: 25px;">
+                        <h3 style="color: #979A9A; font-weight: lighter;">The Basílica de la Sagrada Família, also known as the Sagrada Família, is a large unfinished Roman Catholic minor basilica in Barcelona, Catalonia, Spain.</h3>
+                        <table style="width: 100%; margin: 10px">
                             <tr>
                                 <td style="width: 50%;">
                                     <h3 style="color: #979A9A; font-weight: lighter; text-align: center;">Hours:</h3>
-                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">From Monday to Saturday</h5>
-                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">10 a.m. – 8 p.m.</h5>
-                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">Sundays and holidays</h5>
-                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">10 a.m. - 7 p.m.</h5>
+                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">November through February: 9 am to 6 pm.</h5>
+                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">March and October: 9 am to 7 pm.</h5>
+                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">April through September: 9 am to 8 pm.</h5>
+                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">25 and 26 December, 1 and 6 January: 9 am to 2 pm.</h5>
                                 </td>
                                 <td style="width: 50%;">
                                     <h3 style="color: #979A9A; font-weight: lighter; text-align: center;">Tickets:</h3>
-                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">Under 18: Free</h5>
-                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">60 and Over: 7,50 &euro;</h5>
-                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">General Admission: 15 &euro;</h5>
-                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">General Admission & Guide: 24 &euro;</h5>
+                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">Adult (30-64): 20,00 &euro;</h5>
+                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">Under 30: 18,00 &euro;</h5>
+                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">Children: Free</h5>
+                                    <h5 style="color: #979A9A; font-weight: lighter; margin: 5px; text-align: center;">Audioguide in English: 4,50 &euro;</h5>
                                 </td>
                             </tr>
                         </table>
-                        <h4 style="font-weight: lighter;"><a href="https://www.museodelprado.es/en/visit-the-museum" target="_blank">Learn More <span style="font-size: 20px">&#8250;</span></a></h4>
+                        <h4 style="font-weight: lighter;"><a href="https://sagradafamilia.org/en/" target="_blank">Learn More <span style="font-size: 20px">&#8250;</span></a></h4>
                     </div>
                 </center>
                 <div class="slideshow-container">
                     <div class="mySlides fade">
-                        <img src="padro1.jpg" style="width: 100%">
+                        <img src="sagrada1.jpg" style="width: 100%">
                     </div>
                     <div class="mySlides fade">
-                        <img src="padro2.jpg" style="width: 100%">
+                        <img src="sagrada2.jpeg" style="width: 100%">
                     </div>
                     <div class="mySlides fade">
-                        <img src="padro3.jpg" style="width: 100%">
+                        <img src="sagrada3.jpg" style="width: 100%">
                     </div>
                 </div>
                 <br>
@@ -81,24 +81,24 @@
             </div>
 </body>
 <script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 4000); // Change image every 4 seconds
-}
-</script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
+    }
+    </script>
 </html>

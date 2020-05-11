@@ -13,7 +13,7 @@ a{
     color: #979A9A;
 }
 a:hover{
-    color: #5DADE2;
+    color: #EC7063;
 }
 .content{
     z-index: 1;
@@ -80,4 +80,123 @@ ul{
     position: absolute;
     z-index: 1;
     display: none;
+}
+.dropdown-content{
+    background-color: #EC7063; 
+    position: absolute; 
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.19); 
+    display: none;
+    min-width: 160px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover{
+    background-color: #EC7063;
+}
+
+.dropdown:hover a{
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content-2{
+    background-color: #EC7063;
+    position: absolute;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.19); 
+    display: none;
+    min-width: 100px;
+}
+.dropdown-2{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-2:hover{
+    cursor: pointer; 
+}
+
+.dropdown-2:hover a{
+    color: white;
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+    display: inline-block   ;
+}
+.mySlides{
+    display: none;
+    max-height: 500px;
+}
+img{
+    vertical-align: center;
+}
+.slideshow-container{  
+    width: 600px; 
+    position: relative;
+    margin: auto;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.rest_madrid{
+    background-image: url(ang.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rest_barc{
+    background-image: url(liz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hotel1{
+    background-image: url(hotel1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hotel2{
+    background-image: url(hotel2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.airport_bus{
+    background-image: url(bus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.roundtrip_bus{
+    background-image: url(alsa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.uber{
+    background-image: url(uber.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
